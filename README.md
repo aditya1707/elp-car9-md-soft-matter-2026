@@ -55,3 +55,21 @@ The goal is to construct a polymer-brush-like system starting from a single ELP‚
 - Paths, filenames, and some parameters are system-specific
 - Scripts are provided as **reference implementations**
 - Users are expected to adapt these scripts to their own systems
+
+## Paper citation
+```bibtex
+@Article{D5SM01047K,
+author ="Wixson, William C. and Naser, Nada Y. and Sonpal, Aditya and Pfaendtner, Jim and Baneyx, Fran√ßois",
+title  ="Genetic control of morphological transitions in a coacervating protein template",
+journal  ="Soft Matter",
+year  ="2026",
+publisher  ="The Royal Society of Chemistry",
+doi  ="10.1039/D5SM01047K",
+url  ="http://dx.doi.org/10.1039/D5SM01047K",
+}
+```
+
+## Acknowledgement
+
+This work was supported by the [Center for the Science of Synthesis Across Scales](https://www.cssas-efrc.com/)
+<img src="Copy of CSSAS_logo-final.png" alt="CSSAS logo" style="float:right; width:80px; margin:0 0 10px 10px;">

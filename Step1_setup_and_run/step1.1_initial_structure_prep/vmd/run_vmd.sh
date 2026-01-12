@@ -1,0 +1,1 @@
+vmd ../output/elp_car9.pdb -e ./align.tcl -dispdev text

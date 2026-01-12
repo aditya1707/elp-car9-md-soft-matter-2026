@@ -1,0 +1,3 @@
+PDB File: output/elp_car9.pdb
+Long axis vector (x y z) considering alpha carbons of 1st and last residue:
+{27.3680 105.1850 -51.8760}

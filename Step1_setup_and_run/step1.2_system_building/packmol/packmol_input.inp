@@ -1,0 +1,75 @@
+tolerance 2.0
+ 
+filetype pdb
+ 
+output elp_car9_aligned_packed.pdb
+ 
+pbc 50.0 50.0 120.0
+ 
+structure elp_car9_aligned_final.pdb
+  number 1
+      fixed 10 10 0. 0. 0. 0.
+  end atoms
+end structure
+ 
+ 
+structure elp_car9_aligned_final.pdb
+  number 1
+      fixed 10 25 0. 0. 0. 0.
+  end atoms
+end structure
+ 
+ 
+structure elp_car9_aligned_final.pdb
+  number 1
+      fixed 10 40 0. 0. 0. 0.
+  end atoms
+end structure
+ 
+ 
+structure elp_car9_aligned_final.pdb
+  number 1
+      fixed 25 10 0. 0. 0. 0.
+  end atoms
+end structure
+ 
+ 
+structure elp_car9_aligned_final.pdb
+  number 1
+      fixed 25 25 0. 0. 0. 0.
+  end atoms
+end structure
+ 
+ 
+structure elp_car9_aligned_final.pdb
+  number 1
+      fixed 25 40 0. 0. 0. 0.
+  end atoms
+end structure
+ 
+ 
+structure elp_car9_aligned_final.pdb
+  number 1
+      fixed 40 10 0. 0. 0. 0.
+  end atoms
+end structure
+ 
+ 
+structure elp_car9_aligned_final.pdb
+  number 1
+      fixed 40 25 0. 0. 0. 0.
+  end atoms
+end structure
+ 
+ 
+structure elp_car9_aligned_final.pdb
+  number 1
+      fixed 40 40 0. 0. 0. 0.
+  end atoms
+end structure
+ 
+structure water.pdb
+number 2500
+inside box 0. 0. 73. 50. 50. 120.
+end atoms
+end structure

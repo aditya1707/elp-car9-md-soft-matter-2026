@@ -1,0 +1,8 @@
+source oldff/leaprc.ff99SBildn
+source leaprc.gaff
+loadamberparams frcmod.ionsjc_tip3p
+
+elp = sequence { ACE VAL PRO GLY VAL GLY VAL PRO GLY VAL GLY VAL PRO GLY VAL GLY VAL PRO GLY VAL GLY VAL PRO GLY VAL GLY LYS LEU GLY GLY GLY SER ASP SER ALA ARG GLY PHE LYS LYS PRO GLY LYS ARG NME }
+
+savepdb elp elp_car9.pdb
+quit

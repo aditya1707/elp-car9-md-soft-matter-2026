@@ -1,0 +1,74 @@
+# This file was created Thu Jan 16 10:36:24 2025
+# Created by:
+#               :-) GROMACS - gmx density, 2022.5-plumed_2.9.0 (-:
+# 
+# Executable:   /rs1/researchers/w/wjpfaend/atshoji/codes/gromacs_rhel_update_nompi/gromacs-2022.5/bin/gmx
+# Data prefix:  /rs1/researchers/w/wjpfaend/atshoji/codes/gromacs_rhel_update_nompi/gromacs-2022.5
+# Working dir:  /rs1/researchers/w/wjpfaend/adi/ELP-Car9/2/car9
+# Command line:
+#   gmx density -f npt2.xtc -s npt2.tpr -n system_final_tags.ndx -o den_tag.xvg
+# gmx density is part of G R O M A C S:
+#
+# Gallium Rubidium Oxygen Manganese Argon Carbon Silicon
+#
+@    title "Partial density"
+@    xaxis  label "Average coordinate (nm)"
+@    yaxis  label "Density (kg m\S-3\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "chain9_tag"
+        0.12          2.07901
+        0.36         0.687822
+         0.6         0.140733
+        0.84        0.0211798
+        1.08        0.0387056
+        1.32         0.272348
+        1.56          1.15284
+         1.8          3.12615
+        2.04          6.90631
+        2.28          13.6486
+        2.52          23.0209
+        2.76          33.2801
+           3          43.6012
+        3.24          56.7697
+        3.48          62.2199
+        3.72          61.3963
+        3.96          67.2948
+         4.2          73.7353
+        4.44          80.0246
+        4.68          84.5721
+        4.92          89.4094
+        5.16          86.9016
+         5.4           87.587
+        5.64           85.864
+        5.88          87.8988
+        6.12          92.0068
+        6.36          96.2718
+         6.6          107.834
+        6.84          127.585
+        7.08          140.183
+        7.32          142.254
+        7.56          141.495
+         7.8          142.377
+        8.04          146.673
+        8.28          150.349
+        8.52          149.131
+        8.76          149.294
+           9          140.653
+        9.24          125.091
+        9.48          101.154
+        9.72           79.588
+        9.96          61.0048
+        10.2          46.8683
+       10.44          37.1712
+       10.68          30.6947
+       10.92          22.3596
+       11.16          15.1156
+        11.4          10.1251
+       11.64          6.89371
+       11.88           4.2983

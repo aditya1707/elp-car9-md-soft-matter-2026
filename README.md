@@ -11,13 +11,13 @@ Below is a concise description of the repository layout and the purpose of the m
 
 - `Step1_setup_and_run/`: System setup and simulation protocols. This directory documents the complete molecular dynamics workflow used in this study.
 The goal is to construct a polymer-brush-like system starting from a single ELP–peptide chain and simulate its behavior in explicit solvent.
-    - `step1.1_initial_structure_prep/` 
+    - `step1_initial_structure_prep/` 
         - Align and preprocess a single peptide chain
         - Define a consistent reference orientation
-    - `step1.2_system_building/` 
+    - `step2_system_building/` 
         - Replicate the chain to form a multi-chain polymer-brush-like system
         - Pack, solvate, generate topology, and index files
-    - `step1.3_simulation_protocol/` 
+    - `step3_simulation_protocol/` 
         - GROMACS `mdp` files and run scripts
 
 - `Step2_analysis/`: Analysis scripts and pipelines used to generate the figures

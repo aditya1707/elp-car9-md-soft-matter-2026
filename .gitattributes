@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.xvg linguist-detectable=false
+*.gro linguist-detectable=false
+*.ndx linguist-detectable=false
+*.itp linguist-detectable=false
+*.top linguist-detectable=false
+*.mdp linguist-detectable=false
+*.log linguist-detectable=false
